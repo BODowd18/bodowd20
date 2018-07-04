@@ -1,0 +1,23 @@
+.jumbotron { 
+   background-color: blue;
+}
+
+h1 {
+	text-align: center;
+	color: yellow;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+.jumbotron p{
+	text-align: center;
+
+}
+
+
+p.intro {
+	font-size: 24px;
+}

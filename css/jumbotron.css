@@ -1,0 +1,91 @@
+.jumbo-main { background:grey; min-height:500px; text-align:center }
+
+.jumbo-main h1, .jumbo-main h2 { color:green; text-shadow: 1px 1px #000 }
+
+.jumbo-main-overlay { background-color: rgba(0,0,0, .4); width: 100%; overflow: hidden }
+
+.jumbo-main-background-image {
+	overflow: hidden; width: 100%;padding:0;
+	background-repeat: no-repeat; background-position: center center; background-size: cover;
+}
+
+.jumbo-main-doctor { background-image: url('../../assets/images/doctor-1360x420.jpg') }
+.jumbo-main-bikes { background-image: url('../../assets/images/bikes-1360x420.jpg') }
+.jumbo-main-laptop-woman { background-image: url('../../assets/images/laptop-woman-1360x420.jpg') }
+.jumbo-main-laptop-man { background-image: url('../../assets/images/laptop-man-1360x420.jpg') }
+.jumbo-main-pizza { background-image: url('../../assets/images/pizza-1360x420.jpg') }
+
+
+@media all and (max-width:375px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 320px }
+	.jumbo-main h1 { font-size: 34px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 22px; margin-bottom:80px  }
+}
+
+@media all and (min-width:376px) and (max-width:580px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 360px }
+	.jumbo-main h1 { font-size: 34px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 22px; margin-bottom:80px  }
+}
+
+@media all and (min-width:581px) and (max-width:767px) {
+	.jumbo-main, .jumbo-main-overlay{ min-height: 380px }
+	.jumbo-main h1 { font-size: 44px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 22px; margin-bottom:80px  }
+}
+
+@media all and (min-width:768px) and (max-width: 1024px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 400px }
+	.jumbo-main h1 { font-size: 74px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width:1025px) and (max-width:1336px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 410px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width: 1337px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 480px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+
+@media all and (max-width:375px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 320px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width:376px) and (max-width:580px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 360px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width:581px) and (max-width:767px) {
+	.jumbo-main, .jumbo-main-overlay{ min-height: 380px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width:768px) and (max-width: 1024px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 400px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width:1025px) and (max-width:1336px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 410px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
+@media all and (min-width: 1337px) {
+	.jumbo-main, .jumbo-main-overlay { min-height: 480px }
+	.jumbo-main h1 { font-size: 84px; margin-top: 80px; margin-bottom:40px  }
+	.jumbo-main h2 { font-size: 32px; margin-bottom:80px  }
+}
+
